@@ -1,148 +1,202 @@
 <!DOCTYPE html>
 <html lang="id">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Biodata Diri Bima Aryaseta</title>
     <style>
-      body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-        margin: 0;
-        padding: 20px;
-        background-color: #f8f9fa;
-      }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
 
-      h1 {
-        text-align: center;
-        color: #c8102e; /* Merah */
-        margin-bottom: 20px;
-      }
+        h1 {
+            text-align: center;
+            color: #c8102e; /* Merah */
+            margin-bottom: 20px;
+        }
 
-      h2 {
-        color: #c8102e; /* Merah */
-        border-bottom: 2px solid #c8102e; /* Garis bawah merah */
-        padding-bottom: 5px;
-        margin-top: 20px;
-      }
+        h2 {
+            color: #c8102e; /* Merah */
+            border-bottom: 2px solid #c8102e; /* Garis bawah merah */
+            padding-bottom: 5px;
+            margin-top: 20px;
+        }
 
-      p {
-        margin: 10px 0;
-        color: #333;
-      }
+        p {
+            margin: 10px 0;
+            color: #333;
+        }
 
-      table {
-        width: 100%;
-        border-collapse: collapse;
-        margin: 20px 0;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        background-color: white; /* Latar belakang tabel putih */
-      }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            background-color: white; /* Latar belakang tabel putih */
+        }
 
-      th,
-      td {
-        padding: 10px;
-        text-align: left;
-        border: 1px solid #ddd;
-      }
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
 
-      th {
-        background-color: #c8102e; /* Merah */
-        color: white;
-      }
+        th {
+            background-color: #c8102e; /* Merah */
+            color: white;
+        }
 
-      img {
-        display: block;
-        margin: 20px auto;
-        max-width: 100%;
-        height: auto;
-        border-radius: 10px;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-      }
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
 
-      a {
-        color: #c8102e; /* Merah */
-        text-decoration: none;
-      }
+        a {
+            color: #c8102e; /* Merah */
+            text-decoration: none;
+        }
 
-      a:hover {
-        text-decoration: underline;
-      }
+        a:hover {
+            text-decoration: underline;
+        }
 
-      .container {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 20px;
-        background-color: white; /* Latar belakang putih */
-        border-radius: 10px;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-      }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white; /* Latar belakang putih */
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Navbar Styles */
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            background-color: #c8102e;
+            padding: 10px 0;
+            margin-bottom: 20px;
+        }
+
+        .navbar a {
+            color: white;
+            padding: 10px 15px;
+            transition: background-color 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: #b30d24; /* Warna gelap saat hover */
+        }
+
+        /* Profile Section Styles */
+        .profile {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .profile img {
+            border-radius: 50%;
+            margin-right: 20px;
+            width: 100px; /* Ukuran gambar profil */
+            height: 100px; /* Ukuran gambar profil */
+        }
+
+        .profile-info {
+            flex-grow: 1;
+        }
     </style>
-  </head>
-  <body>
+</head>
+<body>
     <div class="container">
-      <h1>Biodata Diri</h1>
+        <div class="navbar">
+            <a href="#data-pribadi">Data Pribadi</a>
+            <a href="#tentang-saya">Tentang Saya</a>
+            <a href="#pengalaman">Pengalaman</a>
+            <a href="#pendidikan">Pendidikan</a>
+            <a href="#kontak">Kontak</a>
+        </div>
 
-      <h2>Data Pribadi</h2>
-      <p>Nama: Bima Aryaseta</p>
-      <p>NIM: 123140177</p>
-      <p>Program Studi: Teknik Informatika</p>
-      <p>Universitas: ITERA</p>
-      <p>Tempat, Tanggal Lahir: Mulyosari, 15 Maret 2005</p>
-      <p>Alamat: Tanjung Sari, Lampung Selatan</p>
-      <p>Telepon: 0812-9876-5432</p>
-      <p>
-        Email: <a href="mailto:bimaseta93@gmail.com">bimaseta93@gmail.com</a>
-      </p>
+        <h1>Biodata Diri</h1>
 
-      <h2>Tentang Saya</h2>
-      <p>
-        Saya adalah seorang mahasiswa Teknik Informatika di ITERA yang memiliki
-        minat besar dalam pemrograman dan pengembangan perangkat lunak. Saya
-        senang belajar hal-hal baru dan berkontribusi dalam proyek-proyek
-        teknologi.
-      </p>
+        <h2 id="data-pribadi">Data Pribadi</h2>
+        <div class="profile">
+            <img src="https://storage.googleapis.com/kaggle-datasets-usercontent/1624440/1190848/d06228d6-58e3-423a-a013-7c00e4303278/IMG_20210620_144705.jpg" alt="Foto Bima Aryaseta" />
+            <div class="profile-info">
+                <p>Nama: Bima Aryaseta</p>
+                <p>NIM: 123140177</p>
+                <p>Program Studi: Teknik Informatika</p>
+                <p>Universitas: ITERA</p>
+                                <p>Tempat, Tanggal Lahir: Mulyosari, 15 Maret 2005</p>
+                <p>Alamat: Tanjung Sari, Lampung Selatan</p>
+                <p>Telepon: 0812-9876-5432</p>
+                <p>Email: <a href="mailto:bimaseta93@gmail.com">bimaseta93@gmail.com</a></p>
+            </div>
+        </div>
 
-      <h2>Pengalaman</h2>
-      <p>Tidak ada pengalaman yang tersedia saat ini.</p>
+        <h2 id="tentang-saya">Tentang Saya</h2>
+        <p>
+            Saya adalah seorang mahasiswa Teknik Informatika di ITERA yang memiliki
+            minat besar dalam pemrograman dan pengembangan perangkat lunak. Saya
+            senang belajar hal-hal baru dan berkontribusi dalam proyek-proyek
+            teknologi.
+        </p>
 
-      <h2>Pendidikan</h2>
-      <table>
-        <tr>
-          <th>Tahun</th>
-          <th>Institusi</th>
-          <th>Program Studi</th>
-        </tr>
-        <tr>
-          <td>2023 - Sekarang</td>
-          <td>Institut Teknologi Sumatera (ITERA)</td>
-          <td>Sarjana Teknik Informatika</td>
-        </tr>
-        <tr>
-          <td>2020 - 2023</td>
-          <td>SMA N 1 Pajangan Sewon Bantul Yogyakarta</td>
-          <td>IPA</td>
-        </tr>
-      </table>
+        <h2 id="pengalaman">Pengalaman</h2>
+        <p>Tidak ada pengalaman yang tersedia saat ini.</p>
 
-      <h2>Kontak</h2>
-      <p>
-        Jika Anda ingin menghubungi saya, silakan kirim email ke
-        <a href="mailto:bimaseta93@gmail.com">bimaseta93@gmail.com</a> atau
-        hubungi saya di nomor telepon yang tertera di atas.
-      </p>
-      <p>
-        Anda juga dapat mengikuti saya di Instagram:
-        <a href="https://www.instagram.com/bimarya_seta/" target="_blank"
-          >@bimarya_seta</a
-        >
-      </p>
+        <h2 id="pendidikan">Pendidikan</h2>
+        <table>
+            <tr>
+                <th>Tahun</th>
+                <th>Institusi</th>
+                <th>Program Studi</th>
+            </tr>
+            <tr>
+                <td>2023 - Sekarang</td>
+                <td>Institut Teknologi Sumatera (ITERA)</td>
+                <td>Sarjana Teknik Informatika</td>
+            </tr>
+            <tr>
+                <td>2020 - 2023</td>
+                <td>SMA N 1 Pajangan Sewon Bantul Yogyakarta</td>
+                <td>IPA</td>
+            </tr>
+        </table>
 
-      <h2>Foto</h2>
-      <img
-        src="https://storage.googleapis.com/kaggle-datasets-usercontent/1624440/1190848/d06228d6-58e3-423a-a013-7c00e4303278/IMG_20210620_144705.jpg"
-        alt="Foto Bima Aryaseta"
-      />
+        <h2 id="kontak">Kontak</h2>
+        <p>
+            Jika Anda ingin menghubungi saya, silakan kirim email ke
+            <a href="mailto:bimaseta93@gmail.com">bimaseta93@gmail.com</a> atau
+            hubungi saya di nomor telepon yang tertera di atas.
+        </p>
+        <p>
+            Anda juga dapat mengikuti saya di Instagram:
+            <a href="https://www.instagram.com/bimarya_seta/" target="_blank">@bimarya_seta</a>
+        </p>
+
+        <h2>Hobi</h2>
+        <ul>
+            <li>Belajar Pemrograman</li>
+            <li>Berolahraga</li>
+            <li>Membaca Buku</li>
+            <li>Menonton Film</li>
+        </ul>
+
+        <h2>Foto</h2>
+        <img
+            src="https://storage.googleapis.com/kaggle-datasets-usercontent/1624440/1190848/d06228d6-58e3-423a-a013-7c00e4303278/IMG_20210620_144705.jpg"
+            alt="Foto Bima Aryaseta"
+        />
     </div>
-  </body>
+</body>
 </html>
